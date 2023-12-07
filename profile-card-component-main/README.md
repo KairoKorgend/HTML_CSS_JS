@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![](./desktop-design.jpg)
+![](images/desktop-design.jpg)
 
 ### Built with
 
