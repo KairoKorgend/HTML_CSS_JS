@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+:root{
+    --darkcyan: hsl(185, 75%, 39%);
+    --dark_desaturated_blue: hsl(229, 23%, 23%);
+    --dark_grayish_blue: hsl(227, 10%, 46%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    /* background-image: url('../images/bg-pattern-top.svg'); */
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-position: -300px -250px, 200px 350px;
+    background-size: 500px 500px, 500px 500px;
+    background-repeat: no-repeat, no-repeat;
+    background-color: var(--darkcyan);
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+hr {
+    color: var(--dark_grayish_blue);
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+
+div.card-bottom>p {
+    font-size: 12px;
+    margin: 5px auto 15px;
+}
+
+#age {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+div.card-bottom>p, #age, .stat-label {
+    color: var(--dark_grayish_blue);
+}
+
+
+.card-body{
+    margin: 100px auto;
+    border: transparent;
+    width: 330px;
+    position: relative;
+    box-shadow: 0 30px 30px 20px rgba(51, 63, 63, 0.1);
+}
+
+.card-top {
+    background-image: url('images/bg-pattern-card.svg');
+    background-size: cover;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+
+.card-bottom {
+    text-align: center;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    padding-top: 70px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-container>div {
+    padding: 20px 0;
+}
+
+#img-avatar {
+    position: absolute;
+    border-radius: 100%;
+    width: 100px;
+    top: 102px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+}
+
+.stats, #name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark_desaturated_blue);
+}
+
+.stats {
+    margin: 0;
+}
+
+.stat-label {
+    font-size: 10px;
+    margin: 0 auto 10px;
+}
+
+@media only screen and (min-width: 1440px) {
+    body {
+        background-size: 900px 900px, 900px 900px;
+        background-position: -180px -500px, 700px 300px;
+    }
+}
+    
