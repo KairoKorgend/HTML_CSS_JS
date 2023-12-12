@@ -11,7 +11,7 @@ The objective of creating this landing page was to test my fundamental knowledge
 
 ### Links
 
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://huddle-landing-page-by-kairo.netlify.app/)
 
 ### Built with
 
