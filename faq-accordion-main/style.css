@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(275, 100%, 97%);
+  font-family: 'Work Sans', sans-serif;
+}
+
+.background-image {
+  position: relative;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+}
+
+.faq-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 660px;
+  height: auto;
+  margin: -150px auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 8px;
+}
+
+.title-section {
+  display: flex;
+  align-self: start;
+}
+
+#questions-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.answer {
+  color: hsl(292, 16%, 49%);
+  font-size: 16px;
+  margin-top: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+hr {
+  border-style: solid;
+  border-color: rgba(231, 230, 230, 0.61);
+}
+
+.title {
+  font-weight: 700;
+  color: hsl(292, 42%, 14%);
+  font-size: 38px;
+}
+
+.title-icon {
+  margin-right: 20px;
+}
+
+.question-title {
+  font-weight: 600;
+  color: hsl(292, 42%, 14%);
+  font-size: 20px;
+}
+
+.opening-button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  .faq-container {
+    width: 380px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .question-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .faq-container {
+    width: 330px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .question-title {
+    font-size: 17px;
+  }
+
+  .title-icon {
+    width: 25px;
+  }
+}
