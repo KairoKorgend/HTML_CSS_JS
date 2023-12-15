@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
           var isAnswerVisible = !answer.classList.contains('hidden');
 
           if (isAnswerVisible) {
-              // Peida paragrahv ja muuda nupu ikooni plussiks
+              // Peida paragrahv ja muuda nupu ikoon plussiks
               answer.classList.add('hidden');
               button.querySelector('img').src = 'assets/images/icon-plus.svg';
           } else {
-              // Kuva paragrahv ja muuda nupu ikooni miinuseks
+              // Kuva paragrahv ja muuda nupu ikoon miinuseks
               answer.classList.remove('hidden');
               button.querySelector('img').src = 'assets/images/icon-minus.svg';
           }
